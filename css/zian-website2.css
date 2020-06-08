@@ -1,0 +1,285 @@
+html,
+body {
+  width: 1920px;
+  height: auto;
+  background-color: white;
+  font: 12px/1 "\u5b8b\u4f53", Tahoma, Geneva, sans-serif;
+  margin: auto;
+  position: relative;
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
+  margin: auto;
+  position: relative;
+}
+.main {
+  margin: auto;
+  position: relative;
+  height: 100%;
+  width: 72.7%;
+  background-color: #e3f6f5;
+  padding: 55px;
+}
+.main_card {
+  height: 100%;
+  width: 100%;
+  background-color: #fbffff;
+  margin: auto;
+  position: relative;
+}
+.card {
+  height: 550px;
+  width: 100%;
+  background-color: #fbffff;
+  margin: auto;
+  position: relative;
+
+
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: 20px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 12px;
+    font-weight: bold;
+}
+
+.more_travel_button {
+    background-color: #FFD803;
+    color: black;
+    display:block;
+    margin:10px auto
+
+}
+
+.more_travel_button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+
+.more_diary_button {
+    background-color: #FFD803;
+    color: black;
+    margin-bottom: 10px;
+    margin-top: 100px;
+
+}
+
+.more_diary_button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+
+
+.banner {
+    height: 300px;
+    width: 100%;
+    background-image: url('../img/black_banner.png');
+    margin: auto;
+    position: relative;
+  }
+
+  nav{
+      width:100%;
+      height:39px;
+      margin:0px;
+      background:none;
+ }
+  nav ul li{
+      margin:5px 10px;
+      float:right;
+      list-style:none;
+      list-style:none;
+      padding:0 20px;
+      cursor:pointer;
+      position:relative;
+  }
+
+  nav ul li::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 0;
+    height: 100%;
+    border-bottom: 2px solid #4C7C9C;
+    transition: 0.2s all linear;
+    z-index:-1;
+  }
+ nav ul li:hover::before {
+    width: 100%;
+    left: 0;
+  }
+ nav ul li:hover ~ li::before {
+    left: 0;
+  }
+
+  nav ul li a{
+      float:left;
+      font-size:15px;
+      text-decoration:none;
+      color:#black;
+  }
+
+
+
+
+  .card .inner{
+    height: 400px;
+    width: 100%;
+    background-color: #fbffff;
+    margin-top: 10px;
+    display: flex;
+
+  }
+
+  .card .down_section{
+    height: 550px;
+    width: 100%;
+    background-color: #fbffff;
+    display: flex;
+  }
+
+.card .title {
+  font: 40px Tahoma, Geneva, sans-serif;
+  font-weight: bolder;
+  color: #272343;
+  text-align: center;
+  margin: 10px auto auto auto;
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.card .travel_photo_section{
+    height: 350px;
+    width: 300px;
+    background-color: #fbffff;
+    margin-left: 38px;
+    margin-top:10px
+}
+
+.card .text{
+    height: 530px;
+    width: 300px;
+    margin-left: 50px;
+    margin-top:10px
+}
+
+
+
+.card .text .title{
+  font: 40px/1.5 'Microsoft YaHei',arial,tahoma,\5b8b\4f53,sans-serif;
+  font-weight: bold;
+  color: #272343;
+  margin-top: 40px;
+  margin-left: 40px
+  width:auto;
+  text-align: left;
+}
+
+.card .text .date{
+  font: 25px/1.5 'Microsoft YaHei',arial,tahoma,\5b8b\4f53,sans-serif;
+  font-weight: bold;
+  color: #272343;
+  margin-left: 40px
+  width:auto;
+  text-align: left;
+}
+
+.card .text .content{
+  font: 20px/1.5 'Microsoft YaHei',arial,tahoma,\5b8b\4f53,sans-serif;
+  font-weight: normal;
+  color: #272343;
+  margin-top: 20px;
+  margin-left: 40px
+  width:auto;
+  text-align: left;
+}
+
+
+
+.card .photobooth{
+    height: 530px;
+    width: 780px;
+    margin-left: 220px;
+    margin-top:10px;
+    float: right;
+}
+
+.card .photobooth1{
+    height: 530px;
+    width: 780px;
+    margin-left: 20px;
+    margin-top:10px;
+    float: right;
+}
+
+.card .travel_photo_section .photo{
+    height: 300px;
+    width: 300px;
+    background-color: black;
+}
+
+
+.card .travel_photo_section .title{
+    font: 25px/1.5 'Microsoft YaHei',arial,tahoma,\5b8b\4f53,sans-serif;
+    font-weight: bold;
+    color: #272343;
+    margin-top: 10px;
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.card .travel_photo_section .date{
+    font: 20px/1.5 'Microsoft YaHei',arial,tahoma,\5b8b\4f53,sans-serif;
+    font-weight: bold;
+    color: #272343;
+    margin-top: 5px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+
+.bar {
+  height: 100px;
+  width: 100%;
+  background-color: #e3f6f5;
+  margin: auto;
+  position: relative;
+}
+
+.small_bar {
+  height: 10px;
+  width: 100%;
+  background-color: #e3f6f5;
+  margin: auto;
+  position: relative;
+}
+
+
+
+
+footer {
+
+background-color: #272343;
+color:            white;
+text-align:       center;
+padding:          15px 0 15px 0;
+font-size:        90%;
+width: 100%;
+  }
